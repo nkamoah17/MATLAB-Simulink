@@ -1,5 +1,5 @@
 %% Define the Battery Capacity 
-Q = 2.3 * 3600;
+Q = 6.4 * 3600;
 
 
 %% Read Excel Dataset 
@@ -27,8 +27,8 @@ plot(SOC, R_Discharging )
 grid; xlabel('SOC'); ylabel('Discharging Resistance [Ohms]');
 legend('Discharging Resistance')
 
-%% Model Simulation with 2.3 A starting with a Fully Discharged Cell
+%% Model Simulation with 6.4 A starting with a Fully Discharged Cell
 % Define the Input Current
-i = 2.3;
-sim('Project5');
+i = 6.4;
+sim('Battery_Model');
 
