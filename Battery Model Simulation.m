@@ -23,7 +23,7 @@ title('SOC Vs. Charging and Discharging Resistances')
 legend('Charging Resistance')
 
 subplot(2,1,2)
-plot(SOC, R_Discharging )
+plot(SOC, R_Discharging)
 grid; xlabel('SOC'); ylabel('Discharging Resistance [Ohms]');
 legend('Discharging Resistance')
 
